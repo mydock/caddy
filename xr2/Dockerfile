@@ -9,7 +9,13 @@ RUN xcaddy build \
     --with github.com/caddy-dns/route53 \
     --with github.com/caddyserver/replace-response \
     --with github.com/greenpau/caddy-security \
-    --with github.com/hairyhenderson/caddy-teapot-module@v0.0.3-0
+    --with github.com/abiosoft/caddy-json-parse \
+    --with github.com/abiosoft/caddy-hmac \
+    --with github.com/abiosoft/caddy-json-schema \
+    --with github.com/chukmunnlee/caddy-openapi \
+    --with github.com/chukmunnlee/abiosoft/caddy-named-routes \
+    --with github.com/caddyserver/jsonc-adapter \
+    --with github.com/hairyhenderson/caddy-teapot-module
 
 FROM caddy:${CADDY_VERSION}
 
