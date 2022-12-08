@@ -13,7 +13,7 @@ RUN xcaddy build \
     --with github.com/abiosoft/caddy-hmac \
     --with github.com/abiosoft/caddy-json-schema \
     --with github.com/chukmunnlee/caddy-openapi \
-    --with github.com/chukmunnlee/abiosoft/caddy-named-routes \
+    --with github.com/abiosoft/caddy-named-routes \
     --with github.com/caddyserver/jsonc-adapter \
     --with github.com/abiosoft/caddy-yaml \
     --with github.com/hairyhenderson/caddy-teapot-module
