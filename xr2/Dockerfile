@@ -15,6 +15,7 @@ RUN xcaddy build \
     --with github.com/chukmunnlee/caddy-openapi \
     --with github.com/chukmunnlee/abiosoft/caddy-named-routes \
     --with github.com/caddyserver/jsonc-adapter \
+    --with github.com/abiosoft/caddy-yaml \
     --with github.com/hairyhenderson/caddy-teapot-module
 
 FROM caddy:${CADDY_VERSION}
